@@ -390,6 +390,16 @@
               <FilePath>.\main.c</FilePath>
             </File>
             <File>
+              <FileName>motor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\motor.c</FilePath>
+            </File>
+            <File>
+              <FileName>card.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\card.c</FilePath>
+            </File>
+            <File>
               <FileName>stm32f10x_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\stm32f10x_it.c</FilePath>

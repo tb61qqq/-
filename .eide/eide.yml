@@ -11,6 +11,8 @@ virtualFolder:
     - name: USER
       files:
         - path: main.c
+        - path: motor.c
+        - path: card.c
         - path: stm32f10x_it.c
         - path: system_stm32f10x.c
       folders: []
@@ -198,4 +200,9 @@ targets:
         otherCmds: ""
         proType: 1
         speed: 8000
-    uploader: JLink
+      OpenOCD:
+        baseAddr: "0x08000000"
+        bin: ""
+        interface: cmsis-dap-v1
+        target: stm32f1x
+    uploader: OpenOCD
